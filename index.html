@@ -15,11 +15,11 @@
         <span>siva_kumar_s</span>
       </div>
       <div class="nav-links" id="desktopNav">
-        <a href="#about">/about</a>
-        <a href="#skills">/skills</a>
-        <a href="#experience">/experience</a>
-        <a href="#achievements">/achievements</a>
-        <a href="#contact">/contact</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
       </div>
       <button id="burger" class="burger" aria-label="Menu">☰</button>
     </div>
@@ -35,7 +35,7 @@
   <main>
     <header class="container hero">
       <div>
-        <h1>Siva Kumar S</h1>
+  <h1 id="typedName" aria-label="Siva Kumar S"></h1>
         <p class="text-muted">Senior Cloud & DevOps Engineer — AWS • Azure • Kubernetes • CI/CD • IaC</p>
         <p style="margin-top:14px;display:flex;gap:12px;flex-wrap:wrap">
           <a class="btn" href="mailto:sivakumars.01@outlook.com">Contact Me</a>
@@ -51,6 +51,33 @@
       </div>
       <div class="card">
         <p>Senior Cloud and DevOps Engineer with 9+ years designing scalable, secure cloud infrastructure. I build resilient CI/CD pipelines, design Kubernetes platforms, and implement Infrastructure as Code with a strong focus on security and automation.</p>
+      </div>
+    </section>
+
+    <section id="certifications" class="container fade-in">
+      <div class="section-title">
+        <h2>Certifications</h2>
+      </div>
+      <div class="card cert-grid">
+        <div class="cert-item cert-primary">
+          <div class="cert-logo">
+            <img src="logos/oracle%20cloud%20infrastructure%20devops.png" alt="Oracle Certified Badge">
+          </div>
+          <div class="cert-body">
+            <h3>Oracle Certified</h3>
+            <p class="text-muted">Oracle Cloud Infrastructure - DevOps.</p>
+          </div>
+        </div>
+
+        <div class="cert-item">
+          <div class="cert-logo">
+            <img src="logos/devops%20mutli%20cloud%20architect.png" alt="DevOps Multi Cloud Architect">
+          </div>
+          <div class="cert-body">
+            <h3>DevOps Multi-Cloud Architect</h3>
+            <p class="text-muted">Certification in multi-cloud DevOps architectures.</p>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -98,6 +125,16 @@
             <li>Automated infra with Terraform; introduced DevSecOps scans to pipelines.</li>
           </ul>
         </div>
+        
+        <div class="job card">
+          <h3>Cloud Engineer — Genpact</h3>
+          <div class="text-muted">May 2016 - Oct 2018</div>
+          <ul>
+            <li>Collaborated on cloud migrations and platform automation (placeholder — please provide exact details from resume).</li>
+            <li>Implemented infrastructure-as-code and CI/CD patterns for reliability and repeatability.</li>
+            <li>Contributed to monitoring and operational runbooks to improve incident response.</li>
+          </ul>
+        </div>
       </div>
     </section>
 
@@ -117,52 +154,66 @@
       </div>
     </section>
 
+    <!-- Selected Projects: detailed entries from resume -->
+    <section id="projects" class="container fade-in">
+      <div class="section-title">
+        <h2>Selected Projects</h2>
+      </div>
+      <div class="card projects-grid">
+
+        <div class="project">
+          <div class="logo">
+            <img src="logos/company1.png" alt="Project 1 logo">
+            <div class="logo-caption">Project 1</div>
+          </div>
+          <div class="project-body">
+            <h3>Intelligent Cloud Transformation Platform for Telecom Analytics and Scalable Service Delivery</h3>
+            <p class="text-muted">Designed and implemented a cloud-native DevOps platform to modernize telecom and analytics workloads on AWS. Migrated monolithic applications into containerized microservices using Kubernetes (EKS) and Docker. Built end-to-end CI/CD pipelines using Jenkins and GitHub Actions with integrated security scans (SonarQube, Trivy). Developed Infrastructure as Code using AWS CDK and Terraform for scalable provisioning. Enabled real-time data processing and MLOps workflows using SageMaker, Kinesis, and Lambda. Implemented observability with Prometheus, Grafana, and CloudWatch for proactive monitoring. Ensured high availability and zero-downtime deployments using blue-green and canary strategies.</p>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="logo">
+            <img src="logos/company2.webp" alt="Project 2 logo">
+            <div class="logo-caption">Project 2</div>
+          </div>
+          <div class="project-body">
+            <h3>AI-Driven DevOps Acceleration Platform for Secure and Scalable Enterprise Applications</h3>
+            <p class="text-muted">Engineered an enterprise DevOps platform to accelerate application delivery and improve system reliability. Built multi-stage CI/CD pipelines using Azure DevOps and GitHub Actions with integrated security and compliance gates. Deployed and managed containerized workloads on AKS using Helm and Argo Rollouts. Integrated Azure OpenAI and Machine Learning services for AI-driven automation and alert enrichment. Implemented Infrastructure as Code using Terraform and ARM templates for consistent deployments. Strengthened observability using Azure Monitor, Prometheus, and Grafana dashboards. Ensured secure access and secrets management using Azure Key Vault and RBAC policies.</p>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="logo">
+            <img src="logos/company3.avif" alt="Project 3 logo">
+            <div class="logo-caption">Project 3</div>
+          </div>
+          <div class="project-body">
+            <h3>Secure Cloud Governance and DevSecOps Platform for Financial Systems Modernization</h3>
+            <p class="text-muted">Developed a secure DevSecOps platform to modernize financial systems with strong governance and compliance. Automated infrastructure provisioning using Terraform, Bicep, and Ansible for Azure-based environments. Built secure CI/CD pipelines with Azure DevOps integrating SonarQube, Fortify, and Key Vault. Implemented containerized deployments on AKS with Helm and automated rollout strategies. Integrated security tools like Defender for Cloud and Sentinel for continuous compliance monitoring. Designed observability pipelines using Azure Monitor, Grafana, and Splunk for real-time insights. Improved system resilience with self-healing automation using Azure Functions and Logic Apps.</p>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="logo">
+            <img src="logos/company4.png" alt="Project 4 logo">
+            <div class="logo-caption">Project 4</div>
+          </div>
+          <div class="project-body">
+            <h3>Automated Linux Infrastructure Reliability and Security Management Platform for Enterprise Operations</h3>
+            <p class="text-muted">Built and managed a robust Linux infrastructure platform to ensure system reliability and operational efficiency. Administered RHEL and SUSE environments with automated patching and configuration using Bash and Python scripts. Implemented monitoring solutions using Nagios and Zabbix for real-time system health tracking. Strengthened security through system hardening and compliance enforcement across environments. Streamlined incident management and troubleshooting processes following ITIL practices. Automated routine administrative tasks to reduce manual effort and improve consistency. Supported capacity planning, backup strategies, and disaster recovery for business-critical systems.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
     <section id="contact" class="container fade-in">
       <div class="section-title"><h2>Contact</h2></div>
       <div class="card">
         <p>Email: <a href="mailto:sivakumars.01@outlook.com">sivakumars.01@outlook.com</a></p>
         <p>Phone: <a href="tel:+16823373336">+1 682-337-3336</a></p>
         <p>LinkedIn: <a href="https://www.linkedin.com/in/sivaks8781" target="_blank" rel="noreferrer">linkedin.com/in/sivaks8781</a></p>
-      </div>
-    </section>
-
-    <!-- Selected Projects: pulled from resume (placeholders for logos) -->
-    <section id="projects" class="container fade-in">
-      <div class="section-title">
-        <h2>Selected Projects</h2>
-      </div>
-      <div class="card projects-grid">
-        <div class="project">
-          <div class="logo"> <img src="logos/company1.png" alt="Company 1 logo"> </div>
-          <div class="project-body">
-            <h3>Project Title 1</h3>
-            <p class="text-muted">Short description pulled from resume — replace with exact text from the resume file.</p>
-          </div>
-        </div>
-
-        <div class="project">
-          <div class="logo"> <img src="logos/company2.webp" alt="Company 2 logo"> </div>
-          <div class="project-body">
-            <h3>Project Title 2</h3>
-            <p class="text-muted">Short description pulled from resume — replace with exact text from the resume file.</p>
-          </div>
-        </div>
-
-        <div class="project">
-          <div class="logo"> <img src="logos/company3.avif" alt="Company 3 logo"> </div>
-          <div class="project-body">
-            <h3>Project Title 3</h3>
-            <p class="text-muted">Short description pulled from resume — replace with exact text from the resume file.</p>
-          </div>
-        </div>
-
-        <div class="project">
-          <div class="logo"> <img src="logos/company4.png" alt="Company 4 logo"> </div>
-          <div class="project-body">
-            <h3>Project Title 4</h3>
-            <p class="text-muted">Short description pulled from resume — replace with exact text from the resume file.</p>
-          </div>
-        </div>
       </div>
     </section>
 
