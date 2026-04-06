@@ -82,6 +82,11 @@ section.container > .grid{
 .experience .job h3{margin:0 0 4px}
 .footer{padding:28px 0;text-align:center;color:var(--muted);border-top:1px solid rgba(255,255,255,0.02)}
 
+.footer-contact{color:var(--muted);display:inline-flex;gap:10px;align-items:center;flex-wrap:wrap}
+.footer-contact a{color:var(--muted);text-decoration:none}
+.footer-contact a:hover{color:var(--accent)}
+.footer-contact .sep{color:rgba(255,255,255,0.06)}
+
 /* Projects */
 .projects-grid{display:grid;gap:18px}
 .project{display:flex;gap:20px;align-items:flex-start;flex-wrap:nowrap;transition:transform .09s ease,box-shadow .09s ease}
